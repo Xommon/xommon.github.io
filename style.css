@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+* {
+	font: 700 18px "franklin gothic", sans-serif;
+    color: #eee;
+}
+
+.container {
+	background-color: 130087;
+}
+li {
+	font: 700 12px system, sans-serif;
+}
+.footer {
+    background-color: #465a64;
+    outline: 3px solid #FFFF82;
+}
+.header {
+    background-color: #465a64;
+    outline: 3px solid #FFFF82;
+}
+.main__content {
+	outline: 3px solid #FFFF82;
+	background-color: #465a64;
+}
