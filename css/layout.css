@@ -4,14 +4,14 @@
     padding: 0;
 }
 :root {
-    --grid-gap: 30px;
+    --grid-gap: 5px;
 }
 
 .container{
 	display: grid;
 	height: 100vh;
-	grid-template-rows: 150px auto 50px;
-	grid-gap: var(--grid-gap);
+	grid-template-rows: 220px 300px auto 50px;
+	/*grid-gap: var(--grid-gap);*/
 }
 
 li {
@@ -26,7 +26,7 @@ li {
 }
 
 .header {
-	padding: 30px;
+	padding: 10px;
 }
 
 .main__content{
