@@ -1,11 +1,71 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');*/
 
 * {
 	font: 700 18px "franklin gothic", sans-serif;
-    color: #eee;
 }
 
 .container {
+	background-image: url('../images/background.png');
+}
+
+header {
+	background-color: white;
+	font-family: Catamaran;
+	color: black;
+	padding: 15px;
+}
+
+h2 {
+	padding: 120px;
+	color: white;
+	text-align: center;
+	font-size: 48px;
+	font-weight: 1000;
+	text-shadow: 2px 2px 8px black;
+}
+
+a:link {
+	text-decoration:  none;
+}
+
+header nav ul {
+	display: block;
+	margin: 0 auto;
+	width: fit-content;
+	color: grey;
+}
+
+header nav ul li {
+	display: inline-block;
+	float: left;
+	list-style: none;
+	padding: 0 16px;
+}
+
+.banner {
+	background-image: url('../images/banner.jpeg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+main p {
+	font-size: 24px;
+}
+
+.sidebar {
+	background-image: url('../images/photo_micheal.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+footer {
+	background-color: blue;
+}
+
+
+/*.container {
 	background-image: url("city_background.bmp");
 	background-repeat: repeat;
 }
@@ -17,11 +77,11 @@ li {
     outline: 3px solid #FFFF82;
 }
 .header {
-	/*display: grid;*/
+	display: grid;
     background-color: #B7C4CC;
-    /*outline: 3px solid #FFFF82;*/
+    outline: 3px solid #FFFF82;
 }
-.main__content {
-	/*outline: 3px solid #FFFF82;*/
+.content {
+	outline: 3px solid #FFFF82;
 	background-color: #B7C4CC;
-}
+}*/
