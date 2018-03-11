@@ -26,20 +26,17 @@ h2 {
 
 a:link {
 	text-decoration:  none;
+	color: black;
+	padding: 15px;
 }
 
-header nav ul {
-	display: block;
-	margin: 0 auto;
-	width: fit-content;
+a:visited {
+	color: black;
+	padding: 15px;
+}
+
+a:hover {
 	color: grey;
-}
-
-header nav ul li {
-	display: inline-block;
-	float: left;
-	list-style: none;
-	padding: 0 16px;
 }
 
 .banner {
@@ -61,27 +58,7 @@ main p {
 }
 
 footer {
-	background-color: blue;
+	background-color: white;
+	color: black;
+	padding: 15px;
 }
-
-
-/*.container {
-	background-image: url("city_background.bmp");
-	background-repeat: repeat;
-}
-li {
-	font: 700 10px system, sans-serif;
-}
-.footer {
-    background-color: #B7C4CC;
-    outline: 3px solid #FFFF82;
-}
-.header {
-	display: grid;
-    background-color: #B7C4CC;
-    outline: 3px solid #FFFF82;
-}
-.content {
-	outline: 3px solid #FFFF82;
-	background-color: #B7C4CC;
-}*/
