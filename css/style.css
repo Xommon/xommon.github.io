@@ -15,6 +15,28 @@ header {
 	padding: 15px;
 }
 
+.dropdiv {
+    display: none;
+}
+
+.div-content {
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    z-index: 1;
+}
+
+.div-content a {
+    color: red;
+    /*padding: 12px 16px;*/
+    display: block;
+}
+
+.div-content a:hover {
+  background-color:  magenta;
+  color: white;
+}
+
 h2 {
 	padding: 120px;
 	color: white;

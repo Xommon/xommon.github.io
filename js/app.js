@@ -9,3 +9,11 @@ clickMenu.addEventListener('click', function(){
 		menu.style.display = 'block';
 	}
 });
+
+//Navigation Listeners
+var butt = document.querySelector('.button');
+var div = document.querySelector('.dropdiv');
+butt.addEventListener('onclick', function () { 
+	div.style.display = "block"}, false);
+div.addEventListener('onclick', function () {
+  div.style.display = "none"}, false);
