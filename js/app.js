@@ -9,3 +9,20 @@ clickMenu.addEventListener('click', function() {
 		menu.style.display = 'none';
 	}
 });
+
+const mouseLeaveDropdown = document.querySelector('.dropdown');
+mouseLeaveDropdown.addEventListener('mouseleave', function() {
+	const menu = document.querySelector('.dropdown');
+	menu.style.display = 'none';
+});
+
+function open_modal(id) {
+	var e = document.getElementById('modal');
+	if(e.style.display == "block") {
+		e.style.display = "none";
+		document.style.backgroundColor = white;
+	} else {
+		e.style.display = "block";
+		document.body.style.backgroundColor = black;
+	}
+}

@@ -32,9 +32,28 @@ h2 {
 
 h3 {
 	color: white;
-	text-align: center;
+	text-align: left;
 	font-size: 4vh;
 	text-shadow: 1vh 1vh 3vh black;
+	margin-left: 35px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ff96ad;
+}
+
+a:active {
+    text-decoration: none;
+    color: #ff96ad;
 }
 
 header {
@@ -80,19 +99,19 @@ header nav {
 }
 
 .item2 {
-	background-color: #d8637d;
-}
-
-.item2:hover {
-	background-color: #d8637d;
-}
-
-.item3 {
 	background-color: #ff7a97;
 }
 
-.item3:hover {
+.item2:hover {
 	background-color: #ff96ad;
+}
+
+.item3 {
+	background-color: #d8637d;
+}
+
+.item3:hover {
+	background-color: #d8637d;
 }
 
 .dropdown a {
@@ -109,17 +128,28 @@ main {
 	background-image: url('../images/background.jpg');
 	background-position: -6vw -350px;
 	background-repeat: no-repeat;
-	/*background-size: cover;*/
 	border-right: 0.75vw solid white;
 	border-left: 0.75vw solid white;
 }
 
-main img {
-	border-radius: 50vh;
-	border: 1vw solid white;
-    height: 30vh;
-    margin-top: -17vh;
-    margin-left: 30vw;
+main .left {
+    margin-left: 17vw;
+    margin-top: 20vh;
+}
+
+main .left img {
+	margin-left: -1vh;
+    margin-bottom: -5vh;
+}
+
+main .right {
+    margin-left: 47vw;
+    margin-top: -33vh;
+}
+
+main .right img {
+	margin-left: -1vh;
+    margin-bottom: -5vh;
 }
 
 footer {

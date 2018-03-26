@@ -9,17 +9,40 @@
 
 .container {
 	display: grid;
-	background-image: url('../images/background.png');
+	background-image: url('../images/background2.png');
 	padding-left: 10vw;
     padding-right: 10vw;
 }
 
+.modal {
+	background-color: white;
+	top: 25vh;
+	left: 34vw;
+	position: fixed;
+	padding: 5vh;
+	width: 25vw;
+	vertical-align: middle;
+	display: none;
+	border-radius: 1vh;
+	/*position: relative; z-index: 5000;*/
+}
+
+.shade {
+	position: relative; z-index: 4500;
+	background-color: grey;
+}
+
+.modal p {
+	color: char;
+	font-family: "consolas";
+}
+
 h1 {
-	color: #272727;
+	color: #ff96ad;
 	text-align: left;
 	font-size: 5vh;
 	font-family: Bungee;
-	padding: 2vw;
+	padding: 3vw;
 }
 
 h2 {
@@ -27,7 +50,7 @@ h2 {
 	text-align: center;
 	font-size: 10vh;
 	text-shadow: 1vh 1vh 3vh black;
-	margin-top: -8vh;
+	margin-top: -4vh;
 }
 
 h3 {
@@ -38,7 +61,6 @@ h3 {
 }
 
 header {
-	
 	height: 20vh;
 	background-color: white;
 	border: 0.75vw solid white;
@@ -47,7 +69,7 @@ header {
 header nav {
 	display: grid;
 	float: right;
-	margin-top: -15vh;
+	margin-top: -18vh;
 	margin-right: 4vw;
 }
 
@@ -55,44 +77,79 @@ header nav {
 	outline: none;
 }
 
-.button {
-	background: transparent;
-	border: none;
-	height: 20px;
+.button:hover {
+	background-color: #ffedf1;
 }
 
-.button img {
+.button {
+	display: grid;
+	background: transparent;
 	height: 50px;
+	width: 150px;
+}
+
+.dropdown {
+	display: grid;
+	position: relative; z-index: 4000;
+	outline: solid black 2px;
+}
+
+.item1 {
+	background-color: #d8637d;
+}
+
+.item1:hover {
+	background-color: #d8637d;
+}
+
+.item2 {
+	background-color: #ff7a97;
+}
+
+.item2:hover {
+	background-color: #ff96ad;
+}
+
+.item3 {
+	background-color: #ff7a97;
+}
+
+.item3:hover {
+	background-color: #ff96ad;
 }
 
 .dropdown a {
 	display: block;
 	text-decoration: none;
-	color: black;
-	margin-left: -50px;
-}
-
-.dropdown a:hover {
-	color: grey;
+	color: white;
+	padding: 20px;
+	text-align: right;
 }
 
 main {
 	display: grid;
-	height: 63vh;
-	background-image: url('../images/banner.jpeg');
+	height: 63.75vh;
+	background-image: url('../images/background.jpg');
+	background-position: -6vw -350px;
 	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+	/*background-size: cover;*/
 	border-right: 0.75vw solid white;
 	border-left: 0.75vw solid white;
 }
 
-main img {
+main .open img {
 	border-radius: 50vh;
 	border: 1vw solid white;
     height: 30vh;
     margin-top: -17vh;
     margin-left: 30vw;
+}
+
+main .modal img {
+	height: 5vh;
+	border: none;
+	margin-left: 24vw;
+	top: 50px;
 }
 
 footer {
