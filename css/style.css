@@ -1,2 +1,85 @@
 
 
+<<<<<<< HEAD
+=======
+.container {
+	background-image: url('../images/background.png');
+}
+
+header {
+	background-color: white;
+	font-family: Catamaran;
+	color: black;
+	padding: 15px;
+}
+
+.dropdiv {
+    display: none;
+}
+
+.div-content {
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    z-index: 1;
+}
+
+.div-content a {
+    color: red;
+    /*padding: 12px 16px;*/
+    display: block;
+}
+
+.div-content a:hover {
+  background-color:  magenta;
+  color: white;
+}
+
+h2 {
+	padding: 120px;
+	color: white;
+	text-align: center;
+	font-size: 48px;
+	font-weight: 1000;
+	text-shadow: 2px 2px 8px black;
+}
+
+a:link {
+	text-decoration:  none;
+	color: black;
+	padding: 15px;
+}
+
+a:visited {
+	color: black;
+	padding: 15px;
+}
+
+a:hover {
+	color: grey;
+}
+
+.banner {
+	background-image: url('../images/banner.jpeg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+main p {
+	font-size: 24px;
+}
+
+.sidebar {
+	background-image: url('../images/photo_micheal.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+footer {
+	background-color: white;
+	color: black;
+	padding: 15px;
+}
+>>>>>>> 6c2a5b2eda53580452cf8054584af670e84c35e2

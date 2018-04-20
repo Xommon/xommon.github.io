@@ -6,6 +6,7 @@
     padding: 0;
     font: 700 18px "franklin gothic", sans-serif;
 }
+<<<<<<< HEAD
 
 .container {
 	display: grid;
@@ -57,6 +58,25 @@ h3 {
 	text-align: center;
 	font-size: 4vh;
 	text-shadow: 1vh 1vh 3vh black;
+=======
+/*:root {
+    --grid-gap: 5px;
+}*/
+header {grid-area: header;}
+main {grid-area: main;}
+footer {grid-area: footer;}
+.sidebar {grid-area: sidebar;}
+.container {
+	display: grid;
+	grid-template-columns: 1fr 250px 250px 250px 250px 1fr;
+	grid-template-rows: 50px 1fr 1fr 50px;
+	grid-template-areas: 
+	"language header header header header ."
+	". banner banner banner banner ."
+	". sidebar main main main ."
+	". footer footer footer footer ."
+	;
+>>>>>>> 6c2a5b2eda53580452cf8054584af670e84c35e2
 }
 
 header {
@@ -86,8 +106,12 @@ header nav {
 	height: 50px;
 	width: 150px;
 }
+<<<<<<< HEAD
 
 .dropdown {
+=======
+.language {
+>>>>>>> 6c2a5b2eda53580452cf8054584af670e84c35e2
 	display: grid;
 	position: relative; z-index: 4000;
 	outline: solid black 2px;
