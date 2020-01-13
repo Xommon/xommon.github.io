@@ -1,8 +1,18 @@
+<<<<<<< HEAD
 
+=======
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+* {
+	font: 700 18px "franklin gothic", sans-serif;
+    color: #eee;
+}
+>>>>>>> parent of 2c3db28... Add files via upload
 
 <<<<<<< HEAD
 =======
 .container {
+<<<<<<< HEAD
 	background-image: url('../images/background.png');
 }
 
@@ -83,3 +93,24 @@ footer {
 	padding: 15px;
 }
 >>>>>>> 6c2a5b2eda53580452cf8054584af670e84c35e2
+=======
+	background-image: url("city_background.bmp");
+	background-repeat: repeat;
+}
+li {
+	font: 700 10px system, sans-serif;
+}
+.footer {
+    background-color: #B7C4CC;
+    outline: 3px solid #FFFF82;
+}
+.header {
+	/*display: grid;*/
+    background-color: #B7C4CC;
+    /*outline: 3px solid #FFFF82;*/
+}
+.main__content {
+	/*outline: 3px solid #FFFF82;*/
+	background-color: #B7C4CC;
+}
+>>>>>>> parent of 2c3db28... Add files via upload

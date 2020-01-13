@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee');
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font: 700 18px "franklin gothic", sans-serif;
@@ -37,6 +38,7 @@
 	color: char;
 	font-family: "consolas";
 }
+<<<<<<< HEAD
 
 =======
 >>>>>>> parent of 089581b... Added Dropbox and Modal Box
@@ -173,11 +175,48 @@ main img {
     height: 30vh;
     margin-top: -17vh;
     margin-left: 30vw;
+=======
+:root {
+    --grid-gap: 5px;
 }
 
+.container{
+	display: grid;
+	height: 100vh;
+	grid-template-rows: 220px 300px auto 50px;
+	/*grid-gap: var(--grid-gap);*/
+}
+
+li {
+	text-align: left;
+}
+
+.header, .footer {
+	grid-column: 1/-1;
+	grid-gap: var(--grid-gap);
+	padding: 40px;
+	text-align: center;
+}
+
+.header {
+	padding: 10px;
+}
+
+.main__content{
+	display: grid;
+	grid-template-rows: repeat(1,1fr);
+	grid-gap: var(--grid-gap);
+	padding: 30px;
+>>>>>>> parent of 2c3db28... Add files via upload
+}
+.main__content__item1 {
+
+<<<<<<< HEAD
 footer {
 	display: grid;
 	height: 10vh;
 	background-color: white;
 	border: 0.75vw solid white;
+=======
+>>>>>>> parent of 2c3db28... Add files via upload
 }
