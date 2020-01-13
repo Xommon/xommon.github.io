@@ -56,17 +56,20 @@ h2 {
 
 a:link {
 	text-decoration:  none;
-	color: black;
-	padding: 15px;
 }
 
-a:visited {
-	color: black;
-	padding: 15px;
-}
-
-a:hover {
+header nav ul {
+	display: block;
+	margin: 0 auto;
+	width: fit-content;
 	color: grey;
+}
+
+header nav ul li {
+	display: inline-block;
+	float: left;
+	list-style: none;
+	padding: 0 16px;
 }
 
 .banner {
@@ -88,12 +91,20 @@ main p {
 }
 
 footer {
+<<<<<<< HEAD
 	background-color: white;
 	color: black;
 	padding: 15px;
 }
 >>>>>>> 6c2a5b2eda53580452cf8054584af670e84c35e2
 =======
+=======
+	background-color: blue;
+}
+
+
+/*.container {
+>>>>>>> parent of 0c8c499... Switching Computers
 	background-image: url("city_background.bmp");
 	background-repeat: repeat;
 }
@@ -105,6 +116,7 @@ li {
     outline: 3px solid #FFFF82;
 }
 .header {
+<<<<<<< HEAD
 	/*display: grid;*/
     background-color: #B7C4CC;
     /*outline: 3px solid #FFFF82;*/
@@ -114,3 +126,13 @@ li {
 	background-color: #B7C4CC;
 }
 >>>>>>> parent of 2c3db28... Add files via upload
+=======
+	display: grid;
+    background-color: #B7C4CC;
+    outline: 3px solid #FFFF82;
+}
+.content {
+	outline: 3px solid #FFFF82;
+	background-color: #B7C4CC;
+}*/
+>>>>>>> parent of 0c8c499... Switching Computers

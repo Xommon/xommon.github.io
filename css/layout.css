@@ -67,20 +67,29 @@ h3 {
 /*:root {
     --grid-gap: 5px;
 }*/
+<<<<<<< HEAD
 header {grid-area: header;}
 main {grid-area: main;}
 footer {grid-area: footer;}
 .sidebar {grid-area: sidebar;}
+=======
+
+>>>>>>> parent of 0c8c499... Switching Computers
 .container {
 	display: grid;
 	grid-template-columns: 1fr 250px 250px 250px 250px 1fr;
 	grid-template-rows: 50px 1fr 1fr 50px;
 	grid-template-areas: 
+<<<<<<< HEAD
 	"language header header header header ."
+=======
+	". header header header header ."
+>>>>>>> parent of 0c8c499... Switching Computers
 	". banner banner banner banner ."
 	". sidebar main main main ."
 	". footer footer footer footer ."
 	;
+<<<<<<< HEAD
 >>>>>>> 6c2a5b2eda53580452cf8054584af670e84c35e2
 }
 
@@ -219,4 +228,32 @@ footer {
 	border: 0.75vw solid white;
 =======
 >>>>>>> parent of 2c3db28... Add files via upload
+=======
+	/*grid-gap: var(--grid-gap);*/
+}
+
+header {
+	grid-area: header;
+}
+
+.banner {
+	grid-area: banner;
+	width: 100%;
+	height: 50vh;
+}
+
+main {
+	grid-area: main;
+	padding: 20px;
+}
+
+.sidebar {
+	grid-area: sidebar;
+	width: 100%;
+	height: 50vh;
+}
+
+footer {
+	grid-area: footer;
+>>>>>>> parent of 0c8c499... Switching Computers
 }
