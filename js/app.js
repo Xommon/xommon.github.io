@@ -8,7 +8,6 @@ clickMenu.addEventListener('click', function() {
 	} else {
 		menu.style.display = 'none';
 	}
-<<<<<<< HEAD
 });
 
 const mouseLeaveDropdown = document.querySelector('.dropdown');
@@ -35,6 +34,3 @@ butt.addEventListener('onclick', function () {
 	div.style.display = "block"}, false);
 div.addEventListener('onclick', function () {
   div.style.display = "none"}, false);
-=======
-});
->>>>>>> parent of 089581b... Added Dropbox and Modal Box

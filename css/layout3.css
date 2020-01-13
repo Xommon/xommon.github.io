@@ -2,16 +2,16 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee');
 
 * {
-	margin: 0;
-	padding: 0;
-	font: 700 18px "franklin gothic", sans-serif;
+    margin: 0;
+    padding: 0;
+    font: 700 18px "franklin gothic", sans-serif;
 }
 
 .container {
 	display: grid;
 	background-image: url('../images/background2.png');
 	padding-left: 10vw;
-	padding-right: 10vw;
+    padding-right: 10vw;
 }
 
 h1 {
@@ -32,9 +32,28 @@ h2 {
 
 h3 {
 	color: white;
-	text-align: center;
+	text-align: left;
 	font-size: 4vh;
 	text-shadow: 1vh 1vh 3vh black;
+	margin-left: 35px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ff96ad;
+}
+
+a:active {
+    text-decoration: none;
+    color: #ff96ad;
 }
 
 header {
@@ -80,19 +99,19 @@ header nav {
 }
 
 .item2 {
-	background-color: #d8637d;
-}
-
-.item2:hover {
-	background-color: #d8637d;
-}
-
-.item3 {
 	background-color: #ff7a97;
 }
 
-.item3:hover {
+.item2:hover {
 	background-color: #ff96ad;
+}
+
+.item3 {
+	background-color: #d8637d;
+}
+
+.item3:hover {
+	background-color: #d8637d;
 }
 
 .dropdown a {
@@ -113,89 +132,24 @@ main {
 	border-left: 0.75vw solid white;
 }
 
-.image-carousel {
-	margin-left: 30vw;
-	width: 300px;
-	height: 300px;
-	overflow: hidden;
-	position: relative;
+main .left {
+    margin-left: 17vw;
+    margin-top: 20vh;
 }
 
-.image-carousel .inner {
-	display: flex;
-	position: absolute;
-	left: 0;
-	transition: left 0.25s ease-out;
+main .left img {
+	margin-left: -1vh;
+    margin-bottom: -5vh;
 }
 
-.bubbles {
-	display: flex;
-	justify-content: center;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	margin-bottom: 5px;
+main .right {
+    margin-left: 47vw;
+    margin-top: -33vh;
 }
 
-.bubble {
-	margin: 2.5px;
-	background-color: white;
-	border-radius: 100000px;
-	width: 10px;
-	height: 10px;
-	display: inline-block;
-	opacity: 0.25;
-	transition: opacity 0.1s linear;
-	cursor: pointer;
-
-	&:hover {
-		opacity: 0.65;
-	}
-
-	&.active {
-		opacity: 1;
-	}
-}
-
-.next::after {
-	content: url('../images/arrow-right-circle.svg');
-	position: absolute;
-	top: 50%;
-	right: 0;
-	width: 1.5em;
-	height: 3em;
-	transform: translateY(-50%);
-	line-height: 3em;
-	padding: 0 0.2em;
-	/*cursor: pointer;*/
-	opacity: 0.5;
-	transition: opacity 0.1s linear;
-}
-
-.prev::after {
-	content: url('../images/arrow-left-circle.svg');
-	position: absolute;
-	top: 50%;
-	right: 0;
-	width: 1em;
-	height: 3em;
-	transform: translateY(-50%);
-	line-height: 3em;
-	padding: 0 0.2em;
-	/*cursor: pointer;*/
-	opacity: 0.5;
-	transition: opacity 0.1s linear;
-}
-
-.next:hover::after, .prev:hover::after {
-	opacity: 1;
-}
-
-.prev::after {
-	content: '<';
-	left: 0;
-}
+main .right img {
+	margin-left: -1vh;
+    margin-bottom: -5vh;
 }
 
 footer {
