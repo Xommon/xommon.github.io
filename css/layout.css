@@ -10,11 +10,12 @@
 
 .container {
 	display: grid;
-	background-image: url('../images/background2.png');
+	background-image: url('../images/background.png');
 	padding-left: 10vw;
     padding-right: 10vw;
 }
 
+<<<<<<< HEAD
 .modal {
 	background-color: white;
 	top: 25vh;
@@ -37,12 +38,14 @@
 	font-family: "consolas";
 }
 
+=======
+>>>>>>> parent of 089581b... Added Dropbox and Modal Box
 h1 {
-	color: #ff96ad;
+	color: #272727;
 	text-align: left;
 	font-size: 5vh;
 	font-family: Bungee;
-	padding: 3vw;
+	padding: 2vw;
 }
 
 h2 {
@@ -50,7 +53,7 @@ h2 {
 	text-align: center;
 	font-size: 10vh;
 	text-shadow: 1vh 1vh 3vh black;
-	margin-top: -4vh;
+	margin-top: -8vh;
 }
 
 h3 {
@@ -80,6 +83,7 @@ footer {grid-area: footer;}
 }
 
 header {
+	
 	height: 20vh;
 	background-color: white;
 	border: 0.75vw solid white;
@@ -88,7 +92,7 @@ header {
 header nav {
 	display: grid;
 	float: right;
-	margin-top: -18vh;
+	margin-top: -15vh;
 	margin-right: 4vw;
 }
 
@@ -96,13 +100,9 @@ header nav {
 	outline: none;
 }
 
-.button:hover {
-	background-color: #ffedf1;
-}
-
 .button {
-	display: grid;
 	background: transparent;
+<<<<<<< HEAD
 	height: 50px;
 	width: 150px;
 }
@@ -135,44 +135,44 @@ header nav {
 
 .item3 {
 	background-color: #ff7a97;
+=======
+	border: none;
+	height: 20px;
+>>>>>>> parent of 089581b... Added Dropbox and Modal Box
 }
 
-.item3:hover {
-	background-color: #ff96ad;
+.button img {
+	height: 50px;
 }
 
 .dropdown a {
 	display: block;
 	text-decoration: none;
-	color: white;
-	padding: 20px;
-	text-align: right;
+	color: black;
+	margin-left: -50px;
+}
+
+.dropdown a:hover {
+	color: grey;
 }
 
 main {
 	display: grid;
-	height: 63.75vh;
-	background-image: url('../images/background.jpg');
-	background-position: -6vw -350px;
+	height: 63vh;
+	background-image: url('../images/banner.jpeg');
 	background-repeat: no-repeat;
-	/*background-size: cover;*/
+	background-position: center;
+	background-size: cover;
 	border-right: 0.75vw solid white;
 	border-left: 0.75vw solid white;
 }
 
-main .open img {
+main img {
 	border-radius: 50vh;
 	border: 1vw solid white;
     height: 30vh;
     margin-top: -17vh;
     margin-left: 30vw;
-}
-
-main .modal img {
-	height: 5vh;
-	border: none;
-	margin-left: 24vw;
-	top: 50px;
 }
 
 footer {

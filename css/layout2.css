@@ -9,17 +9,52 @@
 
 .container {
 	display: grid;
-	background-image: url('../images/background2.png');
+	background-image: url('../images/background.png');
 	padding-left: 10vw;
 	padding-right: 10vw;
 }
 
+main {
+	overflow: hidden;
+	position: relative;
+	height: 63vh;
+	width: 35vw;
+}
+
+main img {
+	height: 63vh;
+	width: 35vw;
+}
+
+.inner {
+		display: flex;
+		position: absolute;
+		left: 0vw;
+	}
+
+.next::after, .prev::after {
+	content: '>';
+	position: absolute;
+	top: 50%;
+	right: 0;
+	background-color: white;
+	width: 1em;
+	height: 3em;
+	font-weight: bold;
+	font-family: sans-serif;
+	transform: translateY(-50%);
+}
+
+.prev::after {
+	left: 0;
+}
+
 h1 {
-	color: #ff96ad;
+	color: #272727;
 	text-align: left;
 	font-size: 5vh;
 	font-family: Bungee;
-	padding: 3vw;
+	padding: 2vw;
 }
 
 h2 {
@@ -27,7 +62,7 @@ h2 {
 	text-align: center;
 	font-size: 10vh;
 	text-shadow: 1vh 1vh 3vh black;
-	margin-top: -4vh;
+	margin-top: -8vh;
 }
 
 h3 {
@@ -38,6 +73,7 @@ h3 {
 }
 
 header {
+	
 	height: 20vh;
 	background-color: white;
 	border: 0.75vw solid white;
@@ -46,7 +82,7 @@ header {
 header nav {
 	display: grid;
 	float: right;
-	margin-top: -18vh;
+	margin-top: -15vh;
 	margin-right: 4vw;
 }
 
@@ -54,61 +90,33 @@ header nav {
 	outline: none;
 }
 
-.button:hover {
-	background-color: #ffedf1;
-}
-
 .button {
-	display: grid;
 	background: transparent;
+	border: none;
+	height: 20px;
+}
+
+.button img {
 	height: 50px;
-	width: 150px;
-}
-
-.dropdown {
-	display: grid;
-	position: relative; z-index: 4000;
-	outline: solid black 2px;
-}
-
-.item1 {
-	background-color: #ff7a97;
-}
-
-.item1:hover {
-	background-color: #ff96ad;
-}
-
-.item2 {
-	background-color: #d8637d;
-}
-
-.item2:hover {
-	background-color: #d8637d;
-}
-
-.item3 {
-	background-color: #ff7a97;
-}
-
-.item3:hover {
-	background-color: #ff96ad;
 }
 
 .dropdown a {
 	display: block;
 	text-decoration: none;
-	color: white;
-	padding: 20px;
-	text-align: right;
+	color: black;
+	margin-left: -50px;
 }
 
-main {
+.dropdown a:hover {
+	color: grey;
+}
+
+/*main {
 	display: grid;
-	height: 63.75vh;
-	background-image: url('../images/background.jpg');
-	background-position: -6vw -350px;
+	height: 63vh;
+	background-image: url('../images/banner.jpeg');
 	background-repeat: no-repeat;
+<<<<<<< HEAD
 	border-right: 0.75vw solid white;
 	border-left: 0.75vw solid white;
 }
@@ -197,6 +205,13 @@ main {
 	left: 0;
 }
 }
+=======
+	background-position: center;
+	background-size: cover;
+	border-right: 0.75vw solid white;
+	border-left: 0.75vw solid white;
+}*/
+>>>>>>> parent of 089581b... Added Dropbox and Modal Box
 
 footer {
 	display: grid;
