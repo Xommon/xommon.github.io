@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var logo = document.getElementById('navbar__logo');
     
     var images = ['url("/Images/OpenAvatar.png")', 'url("/Images/CloseAvatar.png")'];
-    var intervals = [60, 7000, 60, 100, 60, 350];
+    var intervals = [75, 7000, 75, 100, 75, 350];
     var currentIndex = 0;
     
     // Function to switch the background image URL
