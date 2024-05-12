@@ -15,7 +15,7 @@ body {
 
 .navbar {
     height: 80px;
-    background-color: #fff3ae;
+    background-color: #fff9d8;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,8 +47,8 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
     position: absolute;
     align-items: left;
-    left: 15px;
-    top: 60px;
+    left: 7.5px;
+    top: 52.5px;
     transform: translateY(-50%);
 }
 
@@ -59,10 +59,12 @@ body {
     pointer-events: none;
     user-select: none;
     white-space: nowrap;
-    overflow: hidden;
-    position: absolute;
-    left: 120%;
-    top: 12.5%;
+    overflow: visible;
+    word-wrap: unset;
+    text-align: center;
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 0%;
 }
 
 .fa-gem {
