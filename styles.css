@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+    background-image: url('https://media.istockphoto.com/id/1356164906/vector/geometric-seamless-pattern-in-80s-style-abstract-geometric-background-design-for-brochures.jpg?s=612x612&w=0&k=20&c=jnx_I1eag5ZQAsUsdgZQ0rUs-dG_ViCPufFKY103EKw=');
+    background-size: auto 500%;
+    background-position: left;
+}
+
+.navbar {
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#navbar__logo {
+    background-image: url("/Images/OpenAvatar.png");
+    background-size: cover;
+    margin-top: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+#navbar__logo-text {
+    color: white;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    pointer-events: none;
+    user-select: none;
+    text-shadow: 
+        -1px -1px 0 black,  
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+
+.fa-gem {
+    margin-right: 0.5rem;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar__item {
+    height: 80px;
+    user-select: none;
+}
+
+.navbar__links {
+    color: black;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+}
+
+.navbar__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 50%;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: grey;
+    color: white;
+}
+
+.navbar__item #navitem_about:hover {
+    background: #ffe940;
+    transition: all 0.3s ease;
+}
+
+.navbar__item #navitem_project:hover {
+    background: #ff4086;
+    transition: all 0.3s ease;
+}
+
+.navbar__item #navitem_contact:hover {
+    background: #4089ff;
+    transition: all 0.3s ease;
+}
