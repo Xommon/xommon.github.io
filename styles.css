@@ -55,7 +55,7 @@ body {
 #navbar__logo-text {
     color: #161616;
     font-weight: normal;
-    font-size: 1.75rem;
+    font-size: 2vmin 4vmax;
     pointer-events: none;
     user-select: none;
     white-space: nowrap;
