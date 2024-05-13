@@ -41,8 +41,8 @@ body {
     background-image: url("/Images/OpenAvatar.png");
     background-size: cover;
     margin-top: 10px;
-    height: 120px;
-    width: 120px;
+    height: 80px;
+    width: 80px;
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
     position: absolute;

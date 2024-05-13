@@ -1,3 +1,5 @@
+'use strict';
+
 document.addEventListener('DOMContentLoaded', function() {
     var logo = document.getElementById('navbar__logo');
     
