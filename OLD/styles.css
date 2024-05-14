@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background-image: url('https://media.istockphoto.com/id/1356164906/vector/geometric-seamless-pattern-in-80s-style-abstract-geometric-background-design-for-brochures.jpg?s=612x612&w=0&k=20&c=jnx_I1eag5ZQAsUsdgZQ0rUs-dG_ViCPufFKY103EKw=');
+    background-size: auto 450%;
+    background-position: left;
+    margin: 5px;
+    overflow-x: hidden;
+}
+
+.navbar {
+    height: 80px;
+    background-color: #fff9d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    margin: 5px;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar__container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#navbar__logo {
+    background-image: url("/Images/OpenAvatar.png");
+    background-size: cover;
+    margin-top: 10px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    align-items: left;
+    left: 7.5px;
+    top: 52.5px;
+    transform: translateY(-50%);
+}
+
+#navbar__logo-text {
+    color: #161616;
+    font-weight: normal;
+    font-size: 2vmin 4vmax;
+    pointer-events: none;
+    user-select: none;
+    white-space: nowrap;
+    overflow: visible;
+    word-wrap: unset;
+    text-align: center;
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 0%;
+}
+
+.fa-gem {
+    margin-right: 0.5rem;
+}
+
+.navbar__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar__links {
+    color: #444444;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    padding: 0 1rem;
+    height: 50px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 5px;
+    border: none;
+    outline: none;
+    border-radius: 5%;
+}
+
+.navbar__item #navitem_about:hover {
+    background-color: #fff18b;
+    transition: all 0.3s ease;
+}
+
+.navbar__item #navitem_project:hover {
+    background-color: #ffaacf;
+    transition: all 0.3s ease;
+}
+
+.navbar__item #navitem_contact:hover {
+    background-color: #a2ecff;
+    transition: all 0.3s ease;
+}
+
+.footer {
+    background-color: white;
+}
