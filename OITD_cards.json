@@ -28,7 +28,7 @@
     "location": ["Chicago, IL"],
     "setting": ["Space"],
     "time": ["Morning", "Afternoon", "Evening"],
-    "accommodations": ["Fully Accessible"],
+    "accommodations": ["Accessible (Fully)"],
     "vibe": ["Family-Friendly", "Sober"]
   },
   {
@@ -61,7 +61,7 @@
     "location": ["Chicago, IL"],
     "setting": ["Event"],
     "time": ["Evening"],
-    "accommodations": ["Fully Accessible", "Free", "Dog-Friendly"],
+    "accommodations": ["Accessible (Fully)", "Free", "Dog-Friendly"],
     "vibe": ["Outdoor", "Family-Friendly", "Sober"]
   },
   {
@@ -83,7 +83,7 @@
     "location": ["Chicago, IL"],
     "setting": ["Event"],
     "time": ["Evening"],
-    "accommodations": ["Partially Accessible", "Pay What You Can"],
+    "accommodations": ["Accessible (Partially)", "Pay What You Can"],
     "vibe": ["Adults Only (18+)", "Performance", "Sober"]
   },
   {
@@ -95,7 +95,7 @@
     "location": ["New York, NY"],
     "setting": ["Event"],
     "time": ["Evening"],
-    "accommodations": ["Fully Accessible"],
+    "accommodations": ["Accessible (Fully)"],
     "vibe": ["Adults Only (18+)", "Performance", "Sober"]
   },
   {
@@ -117,7 +117,7 @@
     "location": ["Chicago, IL"],
     "setting": ["Space"],
     "time": ["Morning", "Afternoon", "Evening"],
-    "accommodations": ["Fully Accessible", "Low Volume"],
+    "accommodations": ["Accessible (Fully)", "Low Volume"],
     "vibe": ["Family-Friendly", "Sober"]
   },
   {
@@ -128,7 +128,7 @@
     "location": ["Chicago, IL"],
     "setting": ["Space"],
     "time": ["Morning", "Afternoon", "Evening"],
-    "accommodations": ["Fully Accessible", "Low Volume"],
+    "accommodations": ["Accessible (Fully)", "Low Volume"],
     "vibe": ["Family-Friendly", "Sober"]
   },
   {
@@ -151,7 +151,7 @@
     "location": ["San Francisco, CA"],
     "setting": ["Event"],
     "time": ["Evening"],
-    "accommodations": ["Fully Accessible", "Pay What You Can"],
+    "accommodations": ["Accessible (Fully)", "Pay What You Can"],
     "vibe": ["Adults Only (18+)", "Performance", "Sober"]
   },
   {
@@ -162,7 +162,7 @@
     "location": ["Chicago, IL"],
     "setting": ["Space"],
     "time": ["Morning", "Afternoon", "Evening"],
-    "accommodations": ["Fully Accessible"],
+    "accommodations": ["Accessible (Fully)"],
     "vibe": ["Family-Friendly", "Sober"]
   }
 ]
