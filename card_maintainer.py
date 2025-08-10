@@ -191,3 +191,7 @@ while True:
 
         # Reset completer
         readline.set_completer(None)
+
+    elif selection == '':
+        # Exit the program
+        exit()
